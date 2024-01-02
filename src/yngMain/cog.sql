@@ -1,0 +1,1 @@
+select * from grades inner join studentdata on grades.studentId = studentdata.studentId inner join course on studentdata.courseId = course.courseId inner join subjects on subjects.subjectId = grades.subjectId
